@@ -698,7 +698,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    
    .split-image.about {
      width: 100%;
-     background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, .3), hsla(0, 0%, 100%, 0) 25%), url("../../about-portrait.JPG");
+     background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, .3), hsla(0, 0%, 100%, 0) 25%), url("https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/41388436_10155426760580947_1758624558924955648_o.jpg?_nc_cat=0&oh=763e25f79acbef4d0265cfed6c58b24e&oe=5C361D29");
      background-position: 50% 50%;
      background-size: cover;
      background-repeat: no-repeat;
