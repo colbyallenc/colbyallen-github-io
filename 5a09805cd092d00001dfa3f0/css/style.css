@@ -698,7 +698,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    
    .split-image.about {
      width: 100%;
-     background-image: url("../../about-portrait.jpg");
+     background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, .3), hsla(0, 0%, 100%, 0) 25%), url("../../about-portrait.JPG");
      background-position: 50% 50%;
      background-size: cover;
      background-repeat: no-repeat;
