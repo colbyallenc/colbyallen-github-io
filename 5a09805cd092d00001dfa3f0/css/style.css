@@ -200,7 +200,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    }
    
    .section.border-top {
-     margin-left:100px;
+     background-color: #fdc482;
+     margin-left:80px;
      border-top: 1px solid #ddd;
    }
    
@@ -3280,6 +3281,27 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      align-items: center;
      box-shadow: inset 0 0 0 1px #ddd;
    }
+
+   .social-link.border-white {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1px white;
+  }
    
    .social-link.dark-bg {
      box-shadow: inset 0 0 0 1px hsla(0, 0%, 100%, .4);
@@ -4594,7 +4616,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      -webkit-flex-wrap: wrap;
      -ms-flex-wrap: wrap;
      flex-wrap: wrap;
-     color: #777;
+     color: white;
      font-size: 13px;
      line-height: 20px;
    }
@@ -4658,6 +4680,10 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      color: #777;
      text-decoration: none;
    }
+   .footer-v2-email.text-white {
+    color: white!important;
+    text-decoration: none;
+  }
    
    .footer-v2-email:hover {
      color: #111;
@@ -4741,6 +4767,13 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      color: #777;
      text-decoration: none;
    }
+   .footer-v2-nav-link.text-white {
+    padding-top: 6px;
+    padding-right: 8px;
+    padding-bottom: 6px;
+    color: white!important;
+    text-decoration: none;
+  }
    
    .footer-v2-nav-link:hover {
      color: #111;
@@ -4821,6 +4854,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    
    .footer-text-left {
      margin-right: 16px;
+     color: white;
    }
    
    .link-white {
